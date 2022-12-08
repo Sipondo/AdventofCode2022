@@ -114,7 +114,6 @@ class Main {
 		trace(lines);
 		trace(range);
 
-		trace("Assignment 2",
-			Lambda.fold(range, function(a, s) return Math.max(Lambda.fold(a, function(b, t) return Math.max(b, t), 0), s), 0)); // pak de eerste 3
+		trace("Assignment 2", Lambda.fold(range, function(a, s) return Math.max(Lambda.fold(a, function(b, t) return Math.max(b, t), 0), s), 0));
 	}
 }
