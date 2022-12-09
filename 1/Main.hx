@@ -19,7 +19,7 @@ class Main {
 				sum = 0;
 			}
 		}
-		results.sort((a, b) -> b - a); // sorteer de array
+		results.sort((a, b) -> b - a); // sorteer de rij
 
 		trace("Assignment 1", results[0]); // pak de grootste (0)
 		trace("Assignment 2", Lambda.fold(results.slice(0, 3), function(a, s) return a + s, 0)); // pak de eerste 3
